@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{ED5295B3-AE94-4B3C-99E2-343DCAA3A8D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5295B3-AE94-4B3C-99E2-343DCAA3A8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5295B3-AE94-4B3C-99E2-343DCAA3A8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5295B3-AE94-4B3C-99E2-343DCAA3A8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5295B3-AE94-4B3C-99E2-343DCAA3A8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74E80C94-4ED0-487E-9FD0-0B5DCC0A2C97}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://vmhtfs2015.hevs.ch/tfs/625-1
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Main\\Main.csproj
+		SccProjectName1 = Main
+		SccLocalPath1 = Main
+	EndGlobalSection
+EndGlobal

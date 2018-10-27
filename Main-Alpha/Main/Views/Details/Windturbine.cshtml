@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Windturbine";
+}
+
+<h2>Énergie éolienne</h2>
+
+<div class="row">
+    <!-- Side Detail Menu -->
+    <div class="col-sm-4 col-md-3">
+        @RenderPage("~/Views/Shared/NRE_Menu.cshtml")
+    </div>
+    <!-- Page Content / Graph -->
+    <div class="col-sm-8 col-md-9">
+        <!--canvas id="LineChart" width="400" height="150"></canvas-->
+        <canvas id="LineChart"></canvas>
+    </div>
+</div>
+
+    @section scripts {
+        <script>
+
+            //----Line Chart---------
+            $(document).ready(function () {
+                //Call jsonResult Method
+                $.getJSON("WindturbineChart",
+                    function (json) {
+                        var ctx = document.getElementById("LineChart");
+                        var myLineChart = new Chart(ctx, {
+                            type: 'bar',
+                            data: json
+                        });
+                    });
+            });
+        </script>
+    }

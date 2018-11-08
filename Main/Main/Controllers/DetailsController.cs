@@ -4,6 +4,9 @@ using Main.Models;
 
 namespace Main.Controllers
 {
+
+    //This is first change to commit and push
+
     public class DetailsController : Controller
     {
         // GET: Details

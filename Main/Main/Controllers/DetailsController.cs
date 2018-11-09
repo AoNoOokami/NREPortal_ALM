@@ -6,7 +6,7 @@ namespace Main.Controllers
 {
 
     //This is first change to commit and push
-    //test commit
+  
     public class DetailsController : Controller
     {
         // GET: Details
